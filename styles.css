@@ -1,6 +1,6 @@
 body {
-	background-image: url(hautausmaa.jpeg) ;
 	color: white ;
+	background-color: red ;
 }
 
 p.a {
@@ -30,4 +30,20 @@ div.a {
 .tekstireuna {
 	background: green;
 	border-style: outset;
+}
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
 }
