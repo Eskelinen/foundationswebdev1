@@ -1,5 +1,5 @@
 body {
-	background: black ;
+	background: red ;
 	color: white ;
 }
 
@@ -17,4 +17,17 @@ div.a {
 	border-width: 2px;
 	width: 100px;
 	height: 100px;
+}
+
+.reuna {
+	border-style: groove;
+	border-width: 5px;
+	border-color: black;
+	padding: 20px;
+	margin: 20px;
+}
+
+.tekstireuna {
+	background: green;
+	border-style: outset;
 }
