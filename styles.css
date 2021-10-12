@@ -1,6 +1,9 @@
 body {
 	color: white ;
 	background-color: red ;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
 }
 
 p.a {
@@ -32,18 +35,29 @@ div.a {
 	border-style: outset;
 }
 
+.alaotsikko {
+	color: black;
+}
+
 header {
   background-color: #666;
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: white;
+  color: purple;
 }
 
 nav {
   float: left;
   width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 50px;
   background: #ccc;
   padding: 20px;
+}
+
+section {
+  content: "";
+  display: table;
+  clear: both;
+	background-color: brown;
 }
