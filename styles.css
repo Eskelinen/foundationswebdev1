@@ -1,0 +1,76 @@
+body {
+	color: white ;
+	background-color: red ;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+
+p.a {
+	color: green;
+	font-size: 12px;
+}
+
+h1.a {
+	font-size: 20px;
+}
+
+h4.alaotsikko {
+	color: yellow;
+}
+div.a {
+	border-style: dotted;
+	border-width: 2px;
+	width: 100px;
+	height: 100px;
+}
+
+.reuna {
+	border-style: groove;
+	border-width: 5px;
+	border-color: black;
+	padding: 20px;
+	margin: 20px;
+}
+
+.tekstireuna {
+	background: green;
+	border-style: outset;
+}
+
+.alaotsikko {
+	color: black;
+}
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: purple;
+}
+
+nav.vertical {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav.horizontal {
+	background-color: yellow;
+	padding: 5px;
+	text-align: center;
+	color: white;
+}
+
+section {
+	float: left;
+	background-color: brown;
+	padding: 20px;
+	width: 30%;
+}
+
+a:hover {
+  color: red;
+}
