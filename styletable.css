@@ -1,0 +1,17 @@
+body{
+	background-color: rgb(231, 177, 0);
+}
+
+th{
+	color: green;
+}
+td{
+	color: blue;
+}
+#tyhjä{
+	color: rgb(231, 177, 0);
+}
+
+table, th, td {
+	border: 1px solid black;
+  }

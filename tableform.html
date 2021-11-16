@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+	<link rel="stylesheet" href="styletable.css">
+	<title> Tehtävä 10B </title>
+	<meta charset="utf-8" />
+</head>
+
+<body>
+	<table>
+		<caption>
+			Henkilöiden syntymäajat ja paikkakunnat
+		</caption>
+		<tr>
+			<th rowspan="5">
+				Nimi
+			</th>
+			<th id="tyhjä">
+				jätätyhjäksi
+			</th>
+			<th>
+				Syntymäaika
+			</th>
+			<th>
+				Syntymäpaikkakunta
+			</th>
+		</tr>
+		<tr>
+			<td>
+				Matti
+			</td>
+			<td>
+				26.05.1985
+			</td>
+			<td>
+				Turku
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Seppo
+			</td>
+			<td>
+				14.03.1987
+			</td>
+			<td>
+				Rovaniemi
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Tuomas
+			</td>
+			<td>
+				28.08.1999
+			</td>
+			<td>
+				Salo
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Sylvi
+			</td>
+			<td>
+				05.10.1955
+			</td>
+			<td>
+				Helsinki
+			</td>
+		</tr>
+	</table>
+	<form action="https://www.w3schools.com/action_page.php">
+		<label for="fname">Etunimi</label><br>
+		<input type="text" id="fname" name="fname" required><br>
+		<label for="lname">Sukunimi</label><br>
+		<input type="text" id="lname" name="lname" required><br>
+		<label for="email">Sähköposti</label><br>
+		<input type="email" id="email" name="email" required><br>
+		<textarea id="sanavapaa" name="sanavapaa" rows="4" cols="80"></textarea><br>
+		<input type="checkbox" id="laatikko" name="laatikko" value="Lehti">
+		<label for="laatikko"> Haluan tilata mainoslehden sähköpostiini</label><br>
+		<label for="lempiväri">Minun lempivärini on:</label>
+		<select id="lempiväri" name="lempiväri">
+			<option value="vihreä">Vihreä</option>
+			<option value="sininen">Sininen</option>
+			<option value="keltainen">Keltainen</option>
+			<option value="punainen">Punainen</option>
+		</select><br>
+		<input type="submit" value="Add new user">
+	</form>
+</body>
+
+</html>
