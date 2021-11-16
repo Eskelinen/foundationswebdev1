@@ -1,0 +1,29 @@
+#varjo{
+	box-shadow: 5px 10px;
+	border: 1px;
+	padding: 10px;
+}
+
+#otsikko{
+	text-shadow: 2px 2px #FF0000;
+}
+
+#kuva{
+	background-size: cover;
+	background-image: url("https://bestanimations.com/media/fire/415150878fire-flames-burning-close-up-animated-gif-image.gif")
+}
+
+a:link {
+	 transition: 2s ;
+	 color: hsl(36,50%,50%); 
+	} 
+a:hover {
+	 color: hsl(36,100%,50%); 
+	}
+
+@media only screen and (max-width: 800px) {
+	body {
+	  background-color: black;
+	  color: white;
+	}
+  }
