@@ -1,0 +1,115 @@
+.row {
+	color: black;
+}
+.header{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 33%;
+	height: 33%;
+
+}
+.flex-column {
+	width: 25%;
+}
+
+.levynkansi {
+	width: 150px;
+	height: 150px;
+	border: 2px;
+	border-color: black;
+	border-style: solid;
+}
+
+.uutinen {
+	width: 80%;
+	border: 2px;
+	border-color: black;
+	border-style: solid;
+}
+
+.fylli{
+	display: none;
+}
+#yucca{
+	height: 200px;
+	width: 200px;
+}
+p.levynimi{
+	font-weight: bold;
+	color: black;
+}
+#info{
+	text-align: center;
+}
+#category {
+	border: 2px;
+	border-color: black;
+	border-style: solid;
+	width: 100%;
+}
+footer {
+	padding-top: 100px;
+	color: gray;
+	text-align: center;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+#haku {
+	padding-bottom: 10px;
+}
+#isolevynkansi {
+	padding-top: 40px;
+	width: 100%
+}
+#levyreunus {
+	border: 2px;
+	border-color: black;
+	border-style: solid;
+	height: 400px;
+}
+.kuvateksti{
+	padding-top:40px;
+}
+#liyks {
+	border: 2px;
+	border-color: black;
+	border-style: solid;
+	width: 100%;
+}#likaks{
+	border: 2px;
+	border-color: black;
+	border-style: solid;
+	width: 100%;
+}#likolme {
+	border: 2px;
+	border-color: black;
+	border-style: solid;
+	width: 100%;
+}#lineljä {
+	border: 2px;
+	border-color: black;
+	border-style: solid;
+	width: 100%;
+}#liviisi {
+	border: 2px;
+	border-color: black;
+	border-style: solid;
+	width: 100%;
+}
